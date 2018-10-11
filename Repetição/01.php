@@ -15,7 +15,14 @@ $n = @$_POST['numero'];
 
 for($c = 1; $c <= $n; $c++){
 	for($y = 1; $y <= $c; $y++){
-		echo "$y";
+		echo "$y"."<br/>";
+	}
+}
+
+
+for($c = $c-2; $c > 0; $c--){
+	for($y = 1; $y <= $c; $y++){
+		echo "$y"."<br/>";
 	}
 }
 
